@@ -3845,6 +3845,11 @@ prop-types@^15.7.2, prop-types@^15.8.1:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
+protoc@^33.2.0:
+  version "33.2.0"
+  resolved "https://registry.yarnpkg.com/protoc/-/protoc-33.2.0.tgz#c93c5c4baf3fd8abf38bcf014ce0e85f10f7f6a6"
+  integrity sha512-SQwG0NBae7ASCu5iOXnycA+8D9h0sclgGmdgE0gy4QKjK+k5glswMT1SLmo9tecSleqik2N9fzleGr9X3vLWgw==
+
 punycode@^2.1.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"

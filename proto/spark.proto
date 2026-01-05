@@ -198,6 +198,16 @@ message WorldStatistics {
   message Region {
     int32 totalEntities = 1;
     repeated Chunk chunks = 2;
+
+    int64 folia_region_id = 100;         // 0 si non défini
+    repeated RegionSample samples = 101; // timeseries
+  }
+
+  message RegionSample {
+    int64 epoch_millis = 1;
+    double tps = 2;
+    double mspt = 3;
+    double utilisation = 4; // 0..1 (x100 en UI)
   }
 
   message Chunk {
